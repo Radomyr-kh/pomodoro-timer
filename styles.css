@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+#timer .blocks {
+  display: inline-flex;
+}
+.blocks {
+  width: 75px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+}
+#timer-words .words {
+  display: inline-block;
+}
+.words {
+  width: 75px;
+  height: 25px;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+}
+.button {
+  display: inline-flex;
+  width: 100px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+#reset-sessions {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(223, 71, 89);
+  border-radius: 20px;
+  border: 0;
+
+  font-size: 15px;
+
+  height: 30px;
+  width: 150px;
+}
+
+#pomodoro {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

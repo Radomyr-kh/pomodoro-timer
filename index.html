@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link rel="shortcut icon" type="image/png" href="./images/timer-icon.png">
+  <title>Pomodoro</title>
+</head>
+
+<body>
+
+  <h1>Pomodoro</h1>
+  <div id="pomodoro">
+    <div class="button" id="start" onclick="myStartFunction()">START</div>
+    <div class=" button" id="stop" onclick="myPauseFunction()">PAUSE</div>
+    <div class="button" id="reset" onclick="myResetFunction()">RESET</div>
+    <!-- Display the countdown timer in an element -->
+    <p id="demo"></p>
+    <div id="timer">
+      <div class="blocks" id="minutes">00</div>
+      <div class="blocks" id="seconds">05</div>
+    </div>
+  </div>
+  <div id="timer-words">
+    <div class="words">minutes</div>
+    <div class="words">seconds</div>
+  </div>
+  <p>Sessions: <span id="sessions">0</span></p>
+  <button id="reset-sessions" onclick="resetSessions()">Reset sessions</button>
+</body>
+
+</html>
